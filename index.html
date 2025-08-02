@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSolutions Inc. | Innovative Software Solutions</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Tech</span>Solutions Inc.</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="#profile">Our Profile</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Message Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1 id="welcome-message">Welcome To Our Website</h1>
+            <p>Innovative software solutions for your business needs</p>
+        </div>
+    </section>
+
+    <section id="profile" class="container">
+        <h2>Our Company Profile</h2>
+        <div class="profile-content">
+            <div class="about">
+                <h3>About Us</h3>
+                <p>Founded in 2010, TechSolutions Inc. has been providing cutting-edge software solutions to businesses worldwide. Our team of expert engineers delivers high-quality products tailored to your needs.</p>
+            </div>
+            <div class="vision-mission">
+                <h3>Vision & Mission</h3>
+                <p><strong>Vision:</strong> To be the global leader in innovative software solutions.</p>
+                <p><strong>Mission:</strong> To deliver exceptional value through technology that transforms businesses.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Message Us</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <span class="error-message" id="name-error"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error-message" id="email-error"></span>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone">
+                <span class="error-message" id="phone-error"></span>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <span class="error-message" id="message-error"></span>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="form-result" class="hidden">
+            <h3>Thank you for your message!</h3>
+            <p>We have received your inquiry and will get back to you soon.</p>
+            <div id="submitted-data"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>TechSolutions Inc. &copy; 2025 | Our Headquarters: Silicon Valley, CA</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
